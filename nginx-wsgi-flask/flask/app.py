@@ -24,4 +24,4 @@ def info():
 
 @app.route('/flask-health-check')
 def flask_health_check():
-	return "success"
+	return "success from flask"
